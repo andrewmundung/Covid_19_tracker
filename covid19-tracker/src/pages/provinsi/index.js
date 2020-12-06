@@ -1,6 +1,6 @@
 import React from 'react'
 
-const data_provinsi = () => {
+const Provinsi = () => {
     return (
         <div>
            <h1>
@@ -10,4 +10,4 @@ const data_provinsi = () => {
     )
 }
 
-export default data_provinsi;
+export default Provinsi;

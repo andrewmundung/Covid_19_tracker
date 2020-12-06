@@ -1,6 +1,6 @@
-import data_global from './data_global'
-import data_indo from './data_indo'
-import data_provinsi from './data_provinsi'
+import World from './world'
+import Indonesian from './indonesian'
+import Provinsi from './provinsi'
 
 
-export { data_global, data_indo, data_provinsi}
+export { World, Indonesian, Provinsi}

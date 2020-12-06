@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
-import { data_global, data_indo, data_provinsi } from './hpages'
+import { World, Indonesian, Provinsi } from './pages'
 
 const App = () => {
   return(
@@ -14,17 +14,17 @@ const App = () => {
           <table>
             <ul>
               <li>
-                <Link to="/data_global">
+                <Link to="/world">
                   Data Global
                 </Link>
               </li>
               <li>
-                <Link to="/data_indo">
+                <Link to="/indonesian">
                   Data Indonesia
                 </Link>
               </li>
               <li>
-                <Link to="/data_provinsi">
+                <Link to="/provinsi">
                   Data Provinsi
                 </Link>
               </li>
@@ -33,14 +33,14 @@ const App = () => {
         </nav>
       </div>
       <Switch>
-        <Route path="/data_global">
-          
+        <Route path="/world">
+          <World/>
         </Route>
-        <Route path="/data_indo">
-
+        <Route path="/indonesian">
+          <Indonesian/>
         </Route>
-        <Route path="/data_provinsi">
-
+        <Route path="/provinsi">
+        <Provinsi/>
         </Route>
       </Switch>
     </Router>
