@@ -1,4 +1,6 @@
 import React from 'react'
+import Card_provinsi from "./Card_provinsi"
+import '../../App.css'
 
 const Provinsi = () => {
     return (
@@ -6,6 +8,7 @@ const Provinsi = () => {
            <h1>
                Data Provinsi
             </h1> 
+            <Card_provinsi/>
         </div>
     )
 }
